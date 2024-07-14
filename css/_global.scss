@@ -23,17 +23,3 @@ h1 {
 .seconds {
   width: 100px;
 }
-
-@keyframes aniname {
-  0% {
-    opacity: 0;
-  }
-
-  20% {
-    opacity: 1;
-  }
-}
-
-.separator {
-  animation: aniname 1s linear infinite;
-}
