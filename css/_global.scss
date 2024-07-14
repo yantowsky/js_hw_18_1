@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: normal;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 40px 0px 20px;
+}
+
+#timer {
+  display: inline-flex;
+  gap: 10px;
+  font-size: 5rem;
+}
+
+.minutes,
+.seconds {
+  width: 100px;
+}
+
+@keyframes aniname {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+}
+
+.separator {
+  animation: aniname 1s linear infinite;
+}
